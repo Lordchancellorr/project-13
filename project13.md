@@ -83,9 +83,16 @@ You can decide to develop new roles or find some in the community. Configiure th
 After you've succesfully installed the two roles, your roles folder should now look like this:
 ![roles folder](https://github.com/Lordchancellorr/project-13/blob/main/Images/roles%20folder.PNG)
  - while the entire repo structure should have the following. Check the images below to compare mine with yours to be sure you are the right track.
+
  ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/Directory%20tree.PNG)
+
+
  ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/Directory%20tree%202.PNG)
+
+
  ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/tree%203.PNG)
+
+
  ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/tree%204.PNG)
 
   **Hints**
