@@ -17,7 +17,7 @@ Take note that in most cases it is recommended to use `static assignments` for `
 - In your <https://github.com/<your-name>/ansible-config-mgt> GitHub repository start a new branch and call it dynamic-assignments.(Mine is `ansible-config-artifact`). Create a new folder, name it `dynamic-assignments`. Then inside this folder, create a new file and name it `env-vars.yml`. We will instruct site.yml to include this playbook later. For now, let us keep building up the structure.
 
 Since we will be using the same Ansible to configure multiple environments, and each of these environments will have certain unique attributes, such as servername, ip-address etc., we will need a way to set values to variables per specific environment. For this reason, we will now create a folder to keep each environment’s variables file. Therefore, create a new folder env-vars, then for each environment, create new YAML files which we will use to set variables. Your file structure should like the one below:
-![File structure](./images/File%20structure.PNG)
+![File structure](https://github.com/Lordchancellorr/project-13/blob/main/Images/File%20structure.PNG)
 
 Inside the `dynamics folder/env-vars.yml file`, paste the following commands:
 ```
@@ -74,19 +74,19 @@ I used the [MysQl role](https://galaxy.ansible.com/geerlingguy/mysql) developed 
 **LOAD BALANCER ROLES**
 -
 We want to be able to choose which Load Balancer to use, `Nginx` or `Apache`, so we need to have two roles respectively. Install the two roles just the same way we installed mysql. Check the images below:
-![Nginx](./images/Installation%20of%20nginx.PNG)
-![Apache](./images/installation%20of%20apache.PNG)
+![Nginx](https://github.com/Lordchancellorr/project-13/blob/main/Images/Installation%20of%20nginx.PNG)
+![Apache](https://github.com/Lordchancellorr/project-13/blob/main/Images/installation%20of%20apache.PNG)
 You can decide to develop new roles or find some in the community. Configiure the two roles respectively, update the neccessary folders and files in other to have a smooth  connection anytime you run the ansible-playbook command.
 
 - Hint: tweaking the folders and files in these two roles maybe a little hectic and frustrating, you just have to read through the README.md file to understand what to do and what not to do. I had a very chanleging experience in the process of tweaking the respective roles but i channelled those frustration to gaining more insights and understanding hence it was  a plus for me and itb should be for you too.
 -
 After you've succesfully installed the two roles, your roles folder should now look like this:
-![roles folder](./images/roles%20folder.PNG)
+![roles folder](https://github.com/Lordchancellorr/project-13/blob/main/Images/roles%20folder.PNG)
  - while the entire repo structure should have the following. Check the images below to compare mine with yours to be sure you are the right track.
- ![Directory](./images/Directory%20tree.PNG)
- ![Directory](./images/Directory%20tree%202.PNG)
- ![Directory](./images/tree%203.PNG)
- ![Directory](./images/tree%204.PNG)
+ ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/Directory%20tree.PNG)
+ ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/Directory%20tree%202.PNG)
+ ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/tree%203.PNG)
+ ![Directory](https://github.com/Lordchancellorr/project-13/blob/main/Images/tree%204.PNG)
 
   **Hints**
  ---
@@ -130,15 +130,15 @@ load_balancer_is_required: true
 ```
 It's time to run the `ansible-playbook` command but before we do that, take a moment to compare your set up, folders and files externally and those in the `roles` directory with mine. You can access the complete repo [here](https://github.com/Lordchancellorr/ansible-config-artifact).
 Check below to see the output i got after running the playbook command:
-![ansible playbook](./images/ansible%20playbook%20output%201.PNG)
-![output](./images/Output%202.PNG)
-![output 3](./images/Output%203.PNG)
-![output 4](./images/Output%204.PNG)
-![output 5](./images/Output%205.PNG)
-![output 6](./images/Output%206.PNG)
-![output 7](./images/Output%207.PNG)
-![output 8](./images/Output%208.PNG)
-![output 9](./images/Output%209.PNG)
+![ansible playbook](https://github.com/Lordchancellorr/project-13/blob/main/Images/ansible%20playbook%20output%201.PNG)
+![output](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%202.PNG)
+![output 3](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%203.PNG)
+![output 4](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%204.PNG)
+![output 5](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%205.PNG)
+![output 6](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%206.PNG)
+![output 7](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%207.PNG)
+![output 8](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%208.PNG)
+![output 9](https://github.com/Lordchancellorr/project-13/blob/main/Images/Output%209.PNG)
 
  **This brings us to the end of this project. Thank you and have a nice day!**
 -
